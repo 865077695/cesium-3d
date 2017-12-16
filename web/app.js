@@ -60,8 +60,8 @@ viewer.imageryLayers.addImageryProvider(new Cesium.WebMapTileServiceImageryProvi
  * 工厂信息
  */
 var factoryPositon = [
-  { name: 'A工厂', value: 'a', 'position': [116.3918129972, 39.9072998859, 200] },
-  { name: '精湛光电', value: 'b', 'position': [119.363404, 32.31034112, 40] },
+  { name: 'A工厂', value: 'a', 'position': [116.3920129972, 39.9060998859, 100] },
+  { name: '精湛光电', value: 'jingzhan', 'position': [119.363404, 32.31034112, 40] },
   { name: 'C工厂', value: 'c', 'position': [116.3618129972, 39.9072998859, 200] },
 ]
 
@@ -76,7 +76,7 @@ function setCameraPosition(factory) {
     return item.value === factory
   })
 
-  position = factory[0].position
+  position = factory[0].position  // 获取该工厂的位置信息
   console.log(position)
   viewer.camera.flyTo({
     destination: Cesium.Cartesian3.fromDegrees(position[0], position[1], position[2]), // 设置位置
@@ -106,7 +106,7 @@ document.getElementById('factory').onchange = function (tar) {
   console.log(factory)
   setCameraPosition(factory)
 }
-setTimeout(function () { setCameraPosition('b') }, 1000)
+setTimeout(function () { setCameraPosition('jingzhan') }, 1000)  // 初始化位置为精湛光电公司
 /**
  * 建筑生成器
  */
@@ -126,9 +126,8 @@ function initBuild(buildList) {
     viewer.zoomTo(build)
   }
 }
-/**
- * A 工厂
- */
+
+// 生成A工厂建筑
 var ABuild1 = buildFactory({
   id: 'ABuild1',
   name: 'ABuild1',
@@ -150,7 +149,7 @@ var ABuild3 = buildFactory({
   uri: '../model/factory.gltf',
   data: { "wendu": "50℃", "press": "4pa" }
 })
-// B 工厂
+// 生成B工厂建筑
 var BBuild1 = buildFactory({  // 监控室
   id: 'BBuild1',
   name: '监控室',
