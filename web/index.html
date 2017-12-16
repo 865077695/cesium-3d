@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Use correct character set. -->
+  <meta charset="utf-8">
+  <!-- Tell IE to use the latest, best version. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <title>Hello World!</title>
+  <script src="../Build/Cesium/Cesium.js"></script>
+  <style>
+      @import url(../Build/Cesium/Widgets/widgets.css);
+      html, body, #cesiumContainer {
+          width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
+      }
+      #cesiumContainer{
+        position: relative
+      }
+      #factory{
+        position:absolute;
+        top:10px;right:200px;
+        z-index: 999
+      }
+  </style>
+</head>
+<body>
+  <div id="cesiumContainer">
+    <select name="factory" id="factory">
+      <option value="b">精湛光电</option>
+      <option value="a">A工厂</option>
+      <option value="c">C工厂</option>
+    </select>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

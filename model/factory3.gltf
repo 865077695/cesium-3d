@@ -1,0 +1,612 @@
+{
+    "accessors": {
+        "accessor_100": {
+            "bufferView": "bufferView_153",
+            "byteOffset": 552,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 46,
+            "max": [
+                1,
+                1,
+                1.04557e-015
+            ],
+            "min": [
+                -1,
+                -1,
+                -1.04557e-015
+            ],
+            "type": "VEC3"
+        },
+        "accessor_140": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 176,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 12,
+            "type": "SCALAR"
+        },
+        "accessor_143": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 200,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 12,
+            "type": "SCALAR"
+        },
+        "accessor_146": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 224,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 14,
+            "type": "SCALAR"
+        },
+        "accessor_148": {
+            "bufferView": "bufferView_153",
+            "byteOffset": 1104,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 22,
+            "max": [
+                10,
+                2,
+                2.77
+            ],
+            "min": [
+                -7.87931e-017,
+                0,
+                2
+            ],
+            "type": "VEC3"
+        },
+        "accessor_150": {
+            "bufferView": "bufferView_153",
+            "byteOffset": 1368,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 22,
+            "max": [
+                1.57105e-016,
+                0.610094,
+                0.792329
+            ],
+            "min": [
+                -1.57105e-016,
+                -0.610094,
+                -0.792329
+            ],
+            "type": "VEC3"
+        },
+        "accessor_40": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 252,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 6,
+            "type": "SCALAR"
+        },
+        "accessor_43": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 264,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 6,
+            "type": "SCALAR"
+        },
+        "accessor_46": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 276,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 8,
+            "type": "SCALAR"
+        },
+        "accessor_48": {
+            "bufferView": "bufferView_153",
+            "byteOffset": 1632,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 12,
+            "max": [
+                10,
+                2,
+                7.04992e-019
+            ],
+            "min": [
+                -6.32737e-018,
+                0,
+                -2.81997e-018
+            ],
+            "type": "VEC3"
+        },
+        "accessor_50": {
+            "bufferView": "bufferView_153",
+            "byteOffset": 1776,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 12,
+            "max": [
+                8.67362e-019,
+                8.67362e-019,
+                1
+            ],
+            "min": [
+                -8.67362e-019,
+                -8.67362e-019,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_90": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 30,
+            "type": "SCALAR"
+        },
+        "accessor_93": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 60,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 30,
+            "type": "SCALAR"
+        },
+        "accessor_96": {
+            "bufferView": "bufferView_152",
+            "byteOffset": 120,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 28,
+            "type": "SCALAR"
+        },
+        "accessor_98": {
+            "bufferView": "bufferView_153",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 46,
+            "max": [
+                10,
+                2,
+                2.77
+            ],
+            "min": [
+                -7.87931e-017,
+                0,
+                -2.81997e-018
+            ],
+            "type": "VEC3"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@cf6371beb0bdc18ba603378d5e40c966da53d385",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_152": {
+            "buffer": "\\Users\\zhiq\\Desktop\\factory",
+            "byteLength": 292,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_153": {
+            "buffer": "\\Users\\zhiq\\Desktop\\factory",
+            "byteLength": 1920,
+            "byteOffset": 292,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "\\Users\\zhiq\\Desktop\\factory": {
+            "byteLength": 2212,
+            "type": "arraybuffer",
+            "uri": "data:application/octet-stream;base64,AAABAAIAAQAAAAMAAQADAAQABQAGAAcABgAFAAgACQAKAAsACgAJAAwADQAOAA8ADgANABAAEAANABEAEgATABQAEwAVABQAFgAUABUAFwAYABkAGgAZABgAGwAcAB0AHgAdABwAHwAgACEAIQAgACIAIwAiACAAJAAlACUAJgAnACYAKAAnACQAKAAlACkAKQAqACYAKgArACQALAAoACsALAApACsALQAsACoALQAAAAEAAgABAAAAAwAEAAUABgAFAAQABwAIAAkACgALAAoACQAMAA0ADgAPAA4ADQAQABEAEQASABIAEwATABAAFAASABEAFQAVABQAAAABAAIAAQAAAAMABAAFAAYABwAGAAUACAAJAAoACAALAAoACQALAAAAIEHnFF0nqRNQogAAIEEAAIA/rEcxQAAAIEG9DpwmAAAAQAAAIEEAAABAqRNQogAAIEEAAABAAAAAQE5w6aIAAABAqxNQIQAAIEEAAABAAAAAQAAAIEEAAABAqRNQoiGNVSUAAABAAAAAQAAAIEG9DpwmAAAAQAAAAAAAAAAAAAAAAAAAIEHnFF0nqRNQokKvtaQAAAAAAAAAQJ7w2CYAAIA/rEcxQAAAAAAAAAAAAAAAAEKvtaQAAAAAAAAAQE5w6aIAAABAqxNQISGNVSUAAABAAAAAQAAAIEEAAABAAAAAQAAAIEEAAABAqRNQogAAIEEAAIA/rEcxQAAAIEHnFF0nqRNQogAAIEG9DpwmAAAAQCGNVSUAAABAAAAAQE5w6aIAAABAqxNQIQAAIEEAAABAAAAAQAAAIEEAAABAqRNQokKvtaQAAAAAAAAAQAAAIEG9DpwmAAAAQAAAAAAAAAAAAAAAAAAAIEHnFF0nqRNQoiGNVSUAAABAAAAAQJ7w2CYAAIA/rEcxQE5w6aIAAABAqxNQIQAAAAAAAAAAAAAAAEKvtaQAAAAAAAAAQAAAIEHnFF0nqRNQogAAIEEAAABAqRNQogAAIEEAAABAAAAAQAAAIEEAAIA/rEcxQAAAIEG9DpwmAAAAQE5w6aIAAABAqxNQISGNVSUAAABAAAAAQAAAAAAAAAAAAAAAAEKvtaQAAAAAAAAAQJ7w2CYAAIA/rEcxQAAAgD86E1+lna6WpgAAgD86E1+lna6WpgAAgD86E1+lna6WpgAAgD86E1+lna6WpgAAgD86E1+lna6Wpswwm6QAAIA/AAAAAMwwm6QAAIA/AAAAAMwwm6QAAIA/AAAAAMwwm6QAAIA/AAAAAMwwmyQAAIC/AAAAAMwwmyQAAIC/AAAAAMwwmyQAAIC/AAAAAMwwmyQAAIC/AAAAAAAAgL+wAVwlLmK0JQAAgL+wAVwlLmK0JQAAgL+wAVwlLmK0JQAAgL+wAVwlLmK0JQAAgL+wAVwlLmK0JQAAgL86E18lna6WJgAAgL86E18lna6WJgAAgL86E18lna6WJgAAgL86E18lna6WJgAAgL86E18lna6WJswwmyQAAIC/AAAAgMwwmyQAAIC/AAAAgMwwmyQAAIC/AAAAgMwwmyQAAIC/AAAAgMwwm6QAAIA/AAAAgMwwm6QAAIA/AAAAgMwwm6QAAIA/AAAAgMwwm6QAAIA/AAAAgAAAgD+wAVylLmK0pQAAgD+wAVylLmK0pQAAgD+wAVylLmK0pQAAgD+wAVylLmK0pQAAgD+wAVylLmK0pQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEG9DpwmAAAAQJ7w2CYAAIA/rEcxQEKvtaQAAAAAAAAAQAAAIEEAAIA/rEcxQJ7w2CYAAIA/rEcxQAAAIEEAAABAAAAAQCGNVSUAAABAAAAAQAAAIEEAAIA/rEcxQAAAIEEAAIA/rEcxQAAAIEG9DpwmAAAAQJ7w2CYAAIA/rEcxQEKvtaQAAAAAAAAAQAAAIEEAAIA/rEcxQJ7w2CYAAIA/rEcxQAAAIEEAAABAAAAAQCGNVSUAAABAAAAAQAAAIEG9DpwmAAAAQAAAIEEAAIA/rEcxQJ7w2CYAAIA/rEcxQEKvtaQAAAAAAAAAQCGNVSUAAABAAAAAQAAAIEEAAABAAAAAQE0hNSUYLxy/GtZKP00hNSUYLxy/GtZKP00hNSUYLxy/GtZKP00hNSUYLxy/GtZKPy/tMqUYLxw/GtZKPy/tMqUYLxw/GtZKPy/tMqUYLxw/GtZKPy/tMqUYLxw/GtZKP00hNaUYLxw/GtZKv00hNaUYLxw/GtZKv00hNaUYLxw/GtZKv00hNaUYLxw/GtZKvy/tMiUYLxy/GtZKvy/tMiUYLxy/GtZKvy/tMiUYLxy/GtZKvy/tMiUYLxy/GtZKvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEEAAABAqRNQogAAAAAAAAAAAAAAAE5w6aIAAABAqxNQIQAAIEHnFF0nqRNQogAAIEHnFF0nqRNQogAAIEEAAABAqRNQogAAAAAAAAAAAAAAAE5w6aIAAABAqxNQIQAAIEEAAABAqRNQok5w6aIAAABAqxNQIQAAIEHnFF0nqRNQogAAAAAAAAAAAAAAAAAAgKEAAIChAACAvwAAgKEAAIChAACAvwAAgKEAAIChAACAvwAAgKEAAIChAACAvwAAgCEAAIAhAACAPwAAgCEAAIAhAACAPwAAgCEAAIAhAACAPwAAgCEAAIAhAACAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+    },
+    "cameras": {
+        "ID1": {
+            "name": "skp_camera_Last_Saved_SketchUp_View",
+            "perspective": {
+                "aspect_ratio": 0,
+                "yfov": 0.610865,
+                "zfar": 25.4,
+                "znear": 0.0254
+            },
+            "type": "perspective"
+        }
+    },
+    "materials": {
+        "ID11": {
+            "name": "material_0",
+            "technique": "technique0",
+            "values": {
+                "diffuse": [
+                    0.643137,
+                    0.698039,
+                    0.733333,
+                    1
+                ]
+            }
+        },
+        "ID14": {
+            "name": "edge_color000255",
+            "technique": "technique1",
+            "values": {}
+        },
+        "ID20": {
+            "name": "Color_B07",
+            "technique": "technique0",
+            "values": {
+                "diffuse": [
+                    0.6,
+                    0.14902,
+                    0,
+                    1
+                ]
+            }
+        },
+        "ID30": {
+            "name": "Color_I05",
+            "technique": "technique0",
+            "values": {
+                "diffuse": [
+                    0,
+                    0,
+                    1,
+                    1
+                ]
+            }
+        },
+        "ID5": {
+            "name": "material",
+            "technique": "technique0",
+            "values": {
+                "diffuse": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "ID18": {
+            "name": "ID18",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_100",
+                        "POSITION": "accessor_98"
+                    },
+                    "indices": "accessor_90",
+                    "material": "ID20",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_100",
+                        "POSITION": "accessor_98"
+                    },
+                    "indices": "accessor_93",
+                    "material": "ID11",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_100",
+                        "POSITION": "accessor_98"
+                    },
+                    "indices": "accessor_96",
+                    "material": "ID14",
+                    "mode": 1
+                }
+            ]
+        },
+        "ID28": {
+            "name": "ID28",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_150",
+                        "POSITION": "accessor_148"
+                    },
+                    "indices": "accessor_140",
+                    "material": "ID30",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_150",
+                        "POSITION": "accessor_148"
+                    },
+                    "indices": "accessor_143",
+                    "material": "ID11",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_150",
+                        "POSITION": "accessor_148"
+                    },
+                    "indices": "accessor_146",
+                    "material": "ID14",
+                    "mode": 1
+                }
+            ]
+        },
+        "ID4": {
+            "name": "ID4",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_50",
+                        "POSITION": "accessor_48"
+                    },
+                    "indices": "accessor_40",
+                    "material": "ID5",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_50",
+                        "POSITION": "accessor_48"
+                    },
+                    "indices": "accessor_43",
+                    "material": "ID11",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_50",
+                        "POSITION": "accessor_48"
+                    },
+                    "indices": "accessor_46",
+                    "material": "ID14",
+                    "mode": 1
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "ID3": {
+            "children": [],
+            "matrix": [
+                2.93583,
+                1.69498,
+                -0.00562308,
+                0,
+                -1.57997,
+                2.73665,
+                0.00726555,
+                0,
+                0.00517221,
+                -0.00232368,
+                1.99999,
+                0,
+                2.15996,
+                -3.74124,
+                -0.00993265,
+                1
+            ],
+            "meshes": [
+                "ID4",
+                "ID18",
+                "ID28"
+            ],
+            "name": "group_0"
+        },
+        "node_0": {
+            "children": [
+                "node_1",
+                "ID3"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "SketchUp"
+        },
+        "node_1": {
+            "camera": "ID1",
+            "children": [],
+            "matrix": [
+                0.987492,
+                -0.157667,
+                0,
+                0,
+                0.0423591,
+                0.265302,
+                0.963234,
+                0,
+                -0.15187,
+                -0.951187,
+                0.268663,
+                0,
+                4.45157,
+                -71.2956,
+                22.9551,
+                1
+            ],
+            "name": "skp_camera_Last_Saved_SketchUp_View"
+        },
+        "node_3": {
+            "children": [
+                "node_0"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "\\Users\\zhiq\\Desktop\\factory0FS",
+            "vertexShader": "\\Users\\zhiq\\Desktop\\factory0VS"
+        },
+        "program_1": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "\\Users\\zhiq\\Desktop\\factory1FS",
+            "vertexShader": "\\Users\\zhiq\\Desktop\\factory1VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_3"
+            ]
+        }
+    },
+    "shaders": {
+        "\\Users\\zhiq\\Desktop\\factory0FS": {
+            "type": 35632,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Owp2YXJ5aW5nIHZlYzMgdl9ub3JtYWw7CnVuaWZvcm0gdmVjNCB1X2RpZmZ1c2U7CnZvaWQgbWFpbih2b2lkKSB7CnZlYzMgbm9ybWFsID0gbm9ybWFsaXplKHZfbm9ybWFsKTsKdmVjNCBjb2xvciA9IHZlYzQoMC4sIDAuLCAwLiwgMC4pOwp2ZWM0IGRpZmZ1c2UgPSB2ZWM0KDAuLCAwLiwgMC4sIDEuKTsKZGlmZnVzZSA9IHVfZGlmZnVzZTsKZGlmZnVzZS54eXogKj0gbWF4KGRvdChub3JtYWwsdmVjMygwLiwwLiwxLikpLCAwLik7CmNvbG9yLnh5eiArPSBkaWZmdXNlLnh5ejsKY29sb3IgPSB2ZWM0KGNvbG9yLnJnYiAqIGRpZmZ1c2UuYSwgZGlmZnVzZS5hKTsKZ2xfRnJhZ0NvbG9yID0gY29sb3I7Cn0K"
+        },
+        "\\Users\\zhiq\\Desktop\\factory0VS": {
+            "type": 35633,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0OwphdHRyaWJ1dGUgdmVjMyBhX3Bvc2l0aW9uOwphdHRyaWJ1dGUgdmVjMyBhX25vcm1hbDsKdmFyeWluZyB2ZWMzIHZfbm9ybWFsOwp1bmlmb3JtIG1hdDMgdV9ub3JtYWxNYXRyaXg7CnVuaWZvcm0gbWF0NCB1X21vZGVsVmlld01hdHJpeDsKdW5pZm9ybSBtYXQ0IHVfcHJvamVjdGlvbk1hdHJpeDsKdm9pZCBtYWluKHZvaWQpIHsKdmVjNCBwb3MgPSB1X21vZGVsVmlld01hdHJpeCAqIHZlYzQoYV9wb3NpdGlvbiwxLjApOwp2X25vcm1hbCA9IHVfbm9ybWFsTWF0cml4ICogYV9ub3JtYWw7CmdsX1Bvc2l0aW9uID0gdV9wcm9qZWN0aW9uTWF0cml4ICogcG9zOwp9Cg=="
+        },
+        "\\Users\\zhiq\\Desktop\\factory1FS": {
+            "type": 35632,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Owp2YXJ5aW5nIHZlYzMgdl9ub3JtYWw7CnZvaWQgbWFpbih2b2lkKSB7CnZlYzMgbm9ybWFsID0gbm9ybWFsaXplKHZfbm9ybWFsKTsKdmVjNCBjb2xvciA9IHZlYzQoMC4sIDAuLCAwLiwgMC4pOwp2ZWM0IGRpZmZ1c2UgPSB2ZWM0KDAuLCAwLiwgMC4sIDEuKTsKZGlmZnVzZS54eXogKj0gbWF4KGRvdChub3JtYWwsdmVjMygwLiwwLiwxLikpLCAwLik7CmNvbG9yLnh5eiArPSBkaWZmdXNlLnh5ejsKY29sb3IgPSB2ZWM0KGNvbG9yLnJnYiAqIGRpZmZ1c2UuYSwgZGlmZnVzZS5hKTsKZ2xfRnJhZ0NvbG9yID0gY29sb3I7Cn0K"
+        },
+        "\\Users\\zhiq\\Desktop\\factory1VS": {
+            "type": 35633,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0OwphdHRyaWJ1dGUgdmVjMyBhX3Bvc2l0aW9uOwphdHRyaWJ1dGUgdmVjMyBhX25vcm1hbDsKdmFyeWluZyB2ZWMzIHZfbm9ybWFsOwp1bmlmb3JtIG1hdDMgdV9ub3JtYWxNYXRyaXg7CnVuaWZvcm0gbWF0NCB1X21vZGVsVmlld01hdHJpeDsKdW5pZm9ybSBtYXQ0IHVfcHJvamVjdGlvbk1hdHJpeDsKdm9pZCBtYWluKHZvaWQpIHsKdmVjNCBwb3MgPSB1X21vZGVsVmlld01hdHJpeCAqIHZlYzQoYV9wb3NpdGlvbiwxLjApOwp2X25vcm1hbCA9IHVfbm9ybWFsTWF0cml4ICogYV9ub3JtYWw7CmdsX1Bvc2l0aW9uID0gdV9wcm9qZWN0aW9uTWF0cml4ICogcG9zOwp9Cg=="
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position"
+            },
+            "parameters": {
+                "diffuse": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_diffuse": "diffuse",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix"
+            }
+        },
+        "technique1": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position"
+            },
+            "parameters": {
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                }
+            },
+            "program": "program_1",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix"
+            }
+        }
+    }
+}
