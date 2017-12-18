@@ -206,7 +206,26 @@ handler.setInputAction(
 );
 
 
-
+function setPlayer(src) {
+  console.log('player start')
+  var player = new Aliplayer({
+    id: 'J_prismPlayer',
+    width: '100%',
+    autoplay: true,
+    source: src,      // rtmp
+    useFlashPrism: false
+  }, function (player) {
+    console.log('播放器创建好了。')
+  });
+}
+var players = { // id和src对应
+  'BBuild1': 'rtmp://rtmp.live1.k2o.me/kz-live/KZCM-000004-RNFPD',
+  'BBuild2': 'rtmp://rtmp.live1.k2o.me/kz-live/KZCM-000004-RNFPD',
+  'BBuild3': 'rtmp://rtmp.live1.k2o.me/kz-live/KZCM-000004-RNFPD',
+  'BBuild4': 'rtmp://rtmp.live1.k2o.me/kz-live/KZCM-000998-DKHLG',
+  'BBuild5': 'rtmp://rtmp.live1.k2o.me/kz-live/KZCM-000998-DKHLG',
+  'BBuild6': 'rtmp://rtmp.live1.k2o.me/kz-live/KZCM-000998-DKHLG',
+}
 // 点击处理
 var selectedEntity = new Cesium.Entity();
 var clickHandler = viewer.screenSpaceEventHandler.getInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
@@ -221,7 +240,16 @@ viewer.screenSpaceEventHandler.setInputAction(function onLeftClick(movement) {
   console.log('click')
 
   selectedEntity.name = pickedFeature.id.name; // 标题
-  console.log(pickedFeature.id._data)
+  // player
+  var player = document.getElementById('player')
+  var closeBtn = document.getElementById('btn') 
+  player.style.display = 'block'
+  var _id = pickedFeature.id._id
+  setPlayer(players[_id])
+  btn.onclick = function(){
+    player.style.display = 'none'
+  }
+  // infoBox
   var data = pickedFeature.id._data
   selectedEntity.description = 'Loading <div class="cesium-infoBox-loading"></div>';
   viewer.selectedEntity = selectedEntity;

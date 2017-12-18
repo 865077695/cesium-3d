@@ -8,6 +8,8 @@
   <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
   <title>精湛光电</title>
+  <link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/2.3.5/skins/default/aliplayer-min.css" />
+  <script type="text/javascript" src="//g.alicdn.com/de/prismplayer/2.3.5/aliplayer-min.js"></script>
   <script src="../Build/Cesium/Cesium.js"></script>
   <style>
       @import url(../Build/Cesium/Widgets/widgets.css);
@@ -22,6 +24,13 @@
         top:10px;right:200px;
         z-index: 999
       }
+      #player{
+        position:absolute;
+        display: none;
+        bottom: 50px;right:0;width:480px;height:300px;border:1px solid green;z-index: 1000;background: #fff;padding-top: 20px;background: #000
+      }
+      #J_prismPlayer{width:480px;height:270px;background: #000}
+      #btn{position:absolute;top:0;right:0}
   </style>
 </head>
 <body>
@@ -31,6 +40,10 @@
       <option value="a">A工厂</option>
       <option value="c">C工厂</option>
     </select>
+    <div id="player">
+      <button id="btn" style="float:right">X</button>
+      <div class="prism-player" id="J_prismPlayer" style="position: absolute;background: #000"></div>
+    </div>
   </div>
   <script src="app.js"></script>
 </body>
