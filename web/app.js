@@ -38,16 +38,7 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
   mapProjection: new Cesium.WebMercatorProjection(),//地图投影体系    
   dataSources: new Cesium.DataSourceCollection()
   //需要进行可视化的数据源的集合    
-
 });
-viewer.imageryLayers.addImageryProvider(new Cesium.WebMapTileServiceImageryProvider({  // 全球影像中文注记
-  url: "http://t0.tianditu.com/cia_w/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=cia&tileMatrixSet=w&TileMatrix={TileMatrix}&TileRow={TileRow}&TileCol={TileCol}&style=default.jpg",
-  layer: "tdtAnnoLayer",
-  style: "default",
-  format: "image/jpeg",
-  tileMatrixSetID: "GoogleMapsCompatible",
-  show: false
-}));
 viewer.imageryLayers.addImageryProvider(new Cesium.WebMapTileServiceImageryProvider({  // 全球矢量中文注记
   url: "http://t0.tianditu.com/cva_w/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=cva&tileMatrixSet=w&TileMatrix={TileMatrix}&TileRow={TileRow}&TileCol={TileCol}&style=default.jpg",
   layer: "tdtAnnoLayer",
@@ -55,6 +46,18 @@ viewer.imageryLayers.addImageryProvider(new Cesium.WebMapTileServiceImageryProvi
   format: "image/jpeg",
   tileMatrixSetID: "GoogleMapsCompatible"
 }));
+/**
+ * 设置初始视角
+ */
+viewer.scene.camera.setView({
+  destination: Cesium.Cartesian3.fromDegrees(119.364204, 32.31024112, 30),
+  orientation: {
+    heading: Cesium.Math.toRadians(-20.0), // 方向
+    pitch: Cesium.Math.toRadians(-10.0),// 倾斜角度
+    roll: 0
+  },
+});
+
 
 /**
  * 工厂信息
@@ -101,12 +104,11 @@ function setCameraPosition(factory) {
 }
 // 切换工厂
 document.getElementById('factory').onchange = function (tar) {
-  console.log(tar.target.value)
   var factory = tar.target.value
   console.log(factory)
   setCameraPosition(factory)
 }
-setTimeout(function () { setCameraPosition('jingzhan') }, 1000)  // 初始化位置为精湛光电公司
+// setTimeout(function () { setCameraPosition('jingzhan') }, 1000)  // 初始化位置为精湛光电公司
 /**
  * 建筑生成器
  */
@@ -120,11 +122,6 @@ function buildFactory(obj) {
     },
     data: obj.data
   })
-}
-function initBuild(buildList) {
-  for (var build in buildList) {
-    viewer.zoomTo(build)
-  }
 }
 
 // 生成A工厂建筑
@@ -192,11 +189,11 @@ var BBuild6 = buildFactory({  // 食堂
   uri: '../model/01.shitang.gltf',
   data: { "就餐人数": "300", "湿度": "75%" }
 })
-viewer.zoomTo([ABuild1, ABuild2, ABuild3, BBuild1, BBuild2, BBuild3, BBuild4, BBuild5, BBuild6]);
 
 
-
-// 悬停处理
+/**
+ * 悬停处理
+ */
 var handler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
 handler.setInputAction(
   function (movement) {
