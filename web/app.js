@@ -242,11 +242,16 @@ viewer.screenSpaceEventHandler.setInputAction(function onLeftClick(movement) {
   selectedEntity.name = pickedFeature.id.name; // 标题
   // player
   var player = document.getElementById('player')
-  var closeBtn = document.getElementById('btn') 
-  player.style.display = 'block'
+  var closeBtn = document.getElementById('btn')
   var _id = pickedFeature.id._id
-  setPlayer(players[_id])
-  btn.onclick = function(){
+  console.log(_id)
+  if (_id === 'BBuild1' || _id === 'BBuild5') {
+    player.style.display = 'block'
+    setPlayer(players[_id])
+  }else{
+    player.style.display = 'none'
+  }
+  btn.onclick = function () {
     player.style.display = 'none'
   }
   // infoBox
